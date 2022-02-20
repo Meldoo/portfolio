@@ -1,3 +1,3 @@
 # portfolio
 
-Portfolio made with react, bootstrap and sass.
+Portfolio made with react and sass.
