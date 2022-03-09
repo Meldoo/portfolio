@@ -1,0 +1,65 @@
+@use 'src/styles/colors';
+@use 'src/styles/partials';
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+}
+
+.name-header {
+    background-color: white;
+    width: 320px;
+    margin-left: calc(50% - 150px);
+    padding-left: 15px;
+}
+
+.dark-background-color {
+    background-color: colors.$darkBackgroundColor;
+}
+
+.right-side {
+    background-image: url("./images/coffee.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f3f1;
+}
+
+.bright-background-color {
+    background-color: colors.$lightBackgroundColor;
+}
+
+.arrow {
+    font-size: 4em;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.padding-bottom-10vh {
+    padding-bottom: 10vh;
+}
+
+.padding-top-15vh {
+    padding-top: 15vh;
+}
+
+.padding-top-35vh {
+    padding-top: 35vh;
+}
+
+.nav-tabs {
+    background-color: colors.$topMenuColor;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.width-50-percentage {
+    width: 50%;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
